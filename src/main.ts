@@ -51,7 +51,7 @@ async function readFileAndApplyStyle(
 async function run(): Promise<void> {
   try {
     const inputs = await core.group('Gathering Inputs...', parseInputs)
-    const version = '0.4.9'
+    const version = '0.6.2'
 
     const PythonPath: string = await core.group(
       'Getting python executable path ...',
